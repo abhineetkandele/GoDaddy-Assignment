@@ -1,13 +1,11 @@
-import { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import useFetch from '../../hooks/useFetch';
 import classes from './RepoDetails.module.css';
 
 const RepoDetails = ({ repoList }) => {
   const { id } = useParams();
   const navigate = useNavigate();
 
-  const repoItem = repoList.find((repo) => repo.id == id);
+  const repoItem = repoList.find((repo) => repo.id === +id);
 
   return (
     <>
@@ -20,7 +18,7 @@ const RepoDetails = ({ repoList }) => {
           <p className={classes.repoItem_description}>{repoItem.description}</p>
           <p>
             <b>Github Link: </b>
-            <a href={repoItem.html_url} target="_blank">
+            <a href={repoItem.html_url} target="_blank" rel="noreferrer">
               {repoItem.html_url}
             </a>
           </p>

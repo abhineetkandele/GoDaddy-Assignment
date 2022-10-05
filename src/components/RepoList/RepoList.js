@@ -15,7 +15,7 @@ const RepoList = ({ setRepoList }) => {
 
   useEffect(() => {
     setRepoList(data);
-  }, [data]);
+  }, [data, setRepoList]);
 
   if (loading) {
     return <h1>Loading...</h1>;
