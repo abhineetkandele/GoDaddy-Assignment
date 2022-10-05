@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### For running it Project
+
+Clone this repo using `https://github.com/abhineetkandele/GoDaddy-Assignment.git` \
+Once cloned, run `npm install` and follow below step
+
 ## Available Scripts
 
 In the project directory, you can run:
