@@ -1,0 +1,36 @@
+.repoList {
+  text-align: center;
+}
+
+.repoList h1 {
+  margin: 1rem 0 2rem 0;
+}
+
+.repoListContainer {
+  height: calc(100vh - 120px);
+  width: 80vw;
+  margin: auto;
+  border: 1px solid black;
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  overflow-y: auto;
+}
+
+.repoListItem {
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  margin: 1rem 0;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.1s linear;
+}
+
+.repoListItem:hover {
+  transform: scale(1.01, 1.1);
+}
+
+.repoListItem p {
+  color: grey;
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+}

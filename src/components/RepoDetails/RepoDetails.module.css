@@ -1,0 +1,31 @@
+.goback {
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.repoItem {
+  border: 1px solid black;
+  width: 80vw;
+  margin: auto;
+  margin-top: 50%;
+  padding: 1rem;
+  transform: translateY(-50%);
+}
+
+.repoItem_description {
+  color: grey;
+  padding: 0.5rem 0 1rem 0;
+}
+
+.repoItem_details {
+  margin-top: 1rem;
+  display: flex;
+  text-align: center;
+}
+
+.repoItem_details div {
+  border: 1px solid black;
+  flex: 1;
+  padding: 1rem;
+}
